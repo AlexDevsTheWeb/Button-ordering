@@ -15,11 +15,12 @@ body {
   background-color: #e5e5e5;
 }
 
-.container{
+.container {
   margin: 0 auto;
   padding: 50px;
 }
-.wrapper{
+
+.wrapper {
   margin: 0 auto;
   max-width: 1200px;
   border: 1px solid #000;
@@ -28,7 +29,7 @@ body {
   text-align: center;
 }
 
-.button{
+.button {
   margin: 0 auto;
   padding: 10px 14px;
   width: 100%;
@@ -38,30 +39,43 @@ body {
   border: none;
   color: #fff;
 }
-.button:hover{
+
+.button:hover {
   background-color: #ff0000;
 }
-.testo-down{
+
+.testo-down {
   font-size: 20px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   line-height: 160%;
 }
-.testo-down::after{
-  content: '\2193';
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-top: -10px;
+
+.testo-down::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0ab";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 20px;
 }
-.testo-up{
+
+.testo-up {
   font-size: 20px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   line-height: 160%;
 }
-.testo-up::after{
-  content: '\2190';
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  margin-top: -10px;
+
+.testo-up::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0aa";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 20px;
 }

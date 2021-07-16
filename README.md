@@ -1,8 +1,6 @@
-# Simple Project Boilerplate
+# Button Ordering
 
-This is my mini-bolierplate starting setup for every HTML+CSS+JS front-end projects.
-Instead of starting everytime from scratch with the same repetive little setup actions, this little projects will save a ton of time.
-I use VS Code as IDE so this boilerplate is based on the workflow with it.
+Simple CSS+JS project to change icon for ordering a column.
 
 ## Quickstart
 

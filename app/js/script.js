@@ -1,9 +1,11 @@
 function changeClass() {
-  var x = document.getElementById("button").className;
-  if (x == "testo-up") {
-    x.classList.add("testo-down");
+  var x = document.getElementById("button").classList;
+  if (x.contains("testo-up")) {
+    x.remove("testo-up");
+    x.add("testo-down");
   }
   else {
-    x.classList.remove("testo-down");
+    x.add("testo-up");
+    x.remove("testo-down");
   }
 }
