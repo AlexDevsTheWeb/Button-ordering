@@ -13,7 +13,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #e5e5e5;
+  background-color: #fff9f1;
 }
 
 .container {
@@ -23,11 +23,14 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1200px;
-  border: 1px solid #000;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   padding: 50px;
   justify-content: center;
   text-align: center;
+  background-color: white;
+  box-shadow: 0 1px 10px -5px #666;
 }
 
 .button {
